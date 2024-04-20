@@ -7,11 +7,12 @@ public struct ContentView: View {
     public init() {}
 
     public var body: some View {
-        VStack {
-            Text("Testing")
-                .padding()
-                .background(Color.red)
-                .border(.blue)
+        NavigationStack {
+            VStack {
+                ScrollView(.vertical, showsIndicators: false) {
+
+                }
+            }
         }
         .enableInjection()
     }

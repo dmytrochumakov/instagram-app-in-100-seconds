@@ -8,7 +8,7 @@ let packageName = "Main"
 let package = Package(
     name: packageName,
     platforms: [
-        .iOS(.v14),
+        .iOS(.v16),
     ],
     products: [
         .library(name: packageName, targets: [packageName]),
