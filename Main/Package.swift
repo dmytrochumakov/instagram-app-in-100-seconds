@@ -27,7 +27,11 @@ let package = Package(
                     ])
                 ),
             ],
-            path: "Sources"
+            path: "Sources",
+            resources: [
+                .process("Assets/profile.jpg"),
+                .process("Assets/nature.jpg"),
+            ]
         ),
     ]
 )

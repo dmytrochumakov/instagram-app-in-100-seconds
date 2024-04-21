@@ -10,9 +10,10 @@ public struct ContentView: View {
         NavigationStack {
             VStack {
                 ScrollView(.vertical, showsIndicators: false) {
-
+                    StoriesView()
+                    PostDetailsView()
                 }
-            }
+            }.navBarModifier()
         }
         .enableInjection()
     }
