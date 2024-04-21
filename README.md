@@ -1,6 +1,6 @@
-# XcodeGen & SwiftUI & HotReloading 
+# Instagram app in 100 seconds 
 
-Demonstrating iOS app development using XcodeGen + HotReloading.
+Demonstrating Instagram iOS app development using XcodeGen + HotReloading.
 
 - Xcode project generating using [XcodeGen](https://github.com/yonaskolb/XcodeGen)
 - Fomat Swift with [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) extension.
